@@ -6,6 +6,7 @@ public class EjercicioSumaNumeros04
 {
     public static void main(String[] args)
     {
+        System.out.println("Este es un mensaje nuevo");
         int numeros[] = new int[6];
         int i = 0; int resultado = 0;
         String rsta = "s";

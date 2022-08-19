@@ -5,17 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="797cda0d-dabf-482b-9f75-973576790c92" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Clase1Lab.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PackageEjercicios/EjercicioHijos03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PackageEjercicios/EjercicioLicencia02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PackageEjercicios/EjercicioOptionPane.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PackageEjercicios/EjercicioSumaNumeros04.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PackageEjercicios/EjercicioSumaNumeros04.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PackageEjercicios/EjercicioSumaNumeros04.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,7 +140,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/PackageEjercicios/EjercicioSumaNumeros04.java</url>
-          <line>12</line>
+          <line>13</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
