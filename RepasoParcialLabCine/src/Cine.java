@@ -68,10 +68,6 @@ public class Cine{
 
     public static void leerEspectadores(int N) {
         //VARIABLES
-        String nombre;
-        int dni;
-        String fila;
-        int silla;
         Espectadores aux;
         int i = 0;
 
@@ -80,13 +76,13 @@ public class Cine{
               while (N == 0) {
                   System.out.println("Espectador " + i);
                   System.out.print("Nombre del espectador: ");
-                  nombre = sc.next();
+                  String nombre = sc.next();
                   System.out.print("DNI del espectador: ");
-                  dni = sc.nextInt();
+                  int dni = sc.nextInt();
                   System.out.print("silla del espectador: ");
-                  silla = sc.nextInt();
+                  int silla = sc.nextInt();
                   System.out.print("fila del espectador: ");
-                  fila = sc.next();
+                  String fila = sc.next();
 
                   sc.nextLine(); //limpiar el intro
 

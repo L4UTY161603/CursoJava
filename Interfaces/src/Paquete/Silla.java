@@ -1,2 +1,7 @@
-package Paquete;public interface Silla {
+package Paquete;
+
+public interface Silla {
+
+    public void sentarse ();
+
 }

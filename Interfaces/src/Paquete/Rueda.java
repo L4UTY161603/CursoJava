@@ -1,2 +1,9 @@
-package Paquete;public interface Rueda {
+package Paquete;
+
+public interface Rueda {
+
+    public void avanzar ();
+
+    public void detenerse ();
+
 }
