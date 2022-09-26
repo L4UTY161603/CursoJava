@@ -29,11 +29,15 @@ public class Espectadores
 
     @Override
     public String toString() {
-       return "Espectador [nombre= "+ nombre +", dni = " + DNI + ", fila= " + fila + ", silla= "+ silla + "]";
+       return "Nombre: "+ super.getNombre() + "\n" +
+               "Dni: " + super.getDNI() + "\n" +
+               "Fila y Silla: " + this.fila + "-"+ this.silla +"\n" +
+               "Tipo: " + getName() +"\n" +
+               "------------------------\n";
     }
 
     @Override
     public String getName() {
-        return "Nombre de la clase: Espectadores";
+        return "Espectador";
     }
 }

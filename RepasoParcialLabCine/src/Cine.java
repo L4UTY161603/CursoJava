@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Cine{
     static Scanner sc = new Scanner(System.in);
     static ArrayList<Espectadores> espectador = new ArrayList();
-    static int rstaSala;
+    static int rstaSala , rstaSueldo;
     static int N;
     static int monto;
 
@@ -36,6 +36,7 @@ public class Cine{
                 System.out.println("****************************************************************");
                 System.out.println(s1.toString());
                 System.out.println();
+                System.out.println("-------------------------");
                 System.out.println(espectador.toString());
             }
 
@@ -49,6 +50,7 @@ public class Cine{
                 System.out.println("****************************************************************");
                 System.out.println(s2.toString());
                 System.out.println();
+                System.out.println("-------------------------");
                 System.out.println(espectador.toString());
             }
         }
@@ -56,12 +58,17 @@ public class Cine{
 
         //EMPLEADO MODIFICACION
         Empleados e1 = new Empleados("Carlos",43268558);
-        System.out.println("Sueldo actual: " + e1.getSueldo());
-        System.out.println("Cuanto desea agregar al sueldo del empleado? ");
-        monto = sc.nextInt();
-        e1.CambiarSueldo(monto);
-        System.out.println("-------------------------");
-        System.out.println(e1.toString());
+        System.out.println("Desea modificar el sueldo del empleado? 0:si / 1: no");
+        rstaSueldo = sc.nextInt();
+        if (rstaSueldo == 0) {
+            System.out.println("Cuanto desea agregar al sueldo del empleado? ");
+            monto = sc.nextInt();
+            e1.CambiarSueldo(monto);
+            System.out.println("-------------------------");
+            System.out.println(e1.toString());
+        }else{
+            System.out.println("Hasta luego!");
+        }
 
     }
 
