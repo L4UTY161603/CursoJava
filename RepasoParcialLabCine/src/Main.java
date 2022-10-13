@@ -12,7 +12,7 @@ public class Main {
         int rstaSala = 0;
         int monto;
 
-        //Instancia de objetos
+        //Instancia de objetos se modifica a ver que onda
         Salas s1= new Salas(3,"transformers","sala 1");
         Salas s2 = new Salas(10, "Avengers", "sala 2");
 
