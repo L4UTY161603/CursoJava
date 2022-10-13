@@ -57,9 +57,9 @@ public class Main {
         System.out.println("----------MODIFICACION SUELDO DE UN EMPLEADO---------------");
         System.out.println("Desea modificar el sueldo del empleado? s/n");
         String rstaSueldo = sc.next();
-        System.out.println("-------------------------");
-        System.out.println(e1.toString());
         if (rstaSueldo.equals("s")) {
+            System.out.println("-------------------------");
+            System.out.println(e1.toString());
             System.out.println("Indique el nuevo sueldo del empelado: ");
             monto = sc.nextInt();
             e1.CambiarSueldo(monto);

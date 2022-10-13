@@ -41,7 +41,12 @@ public class LinkedLists {
             iterador.next();
             iterador.add(new Persona(6,"luis",21));
 
-
+            //Eliminar elemento sin FOREACH
+            while (iterador.hasNext()){
+                String elementoEliminar = iterador.next().getNombre();
+                if(elementoEliminar.equals("Bruno"))
+                    iterador.remove();
+            }
 
             //ForEach recorrido
             System.out.println("----------FOREACH----------------");
