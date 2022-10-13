@@ -12,7 +12,11 @@ public class Empleados
     }
 
     public void CambiarSueldo( int monto) {
+<<<<<<< HEAD
         sueldo = 0;
+=======
+
+>>>>>>> 4ddcc21f9a68d1ba61a291b2fafe6a5bfdaa2452
         this.sueldo = sueldo + monto;
     }
 
